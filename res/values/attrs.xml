@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the standard attributes that make up a complete theme. -->
+    <declare-styleable name="CloudTheme">
+        <attr name="backgroundMain" format="reference" />
+        <attr name="logoBig" format="reference" />
+        <attr name="logoSmall" format="reference" />
+        <attr name="colorContent" format="reference|color" />
+        <attr name="colorAction" format="reference|color" />
+        <attr name="colorTitle" format="reference|color" />
+        <attr name="colorPanel" format="reference|color" />
+        <attr name="colorDivider" format="reference|color" />
+        <attr name="buttonStyleSmall" format="reference" />
+    </declare-styleable>
+ 
+</resources>

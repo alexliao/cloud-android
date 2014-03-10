@@ -1,0 +1,39 @@
+package com.goofy2.cloud;
+
+public class Const {
+	
+	//public static final String HTTP_PREFIX = "http://192.168.1.102";
+	//public static final String UPLOAD_HTTP_PREFIX = "http://192.168.1.102";
+	public static final String HTTP_PREFIX = "http://apponcloud.org";
+	public static final String UPLOAD_HTTP_PREFIX = "http://upload.apponcloud.org";
+
+	public static final int IMAGE_MAX_SIZE = 1000;
+	public static final String STATIC_HTTP_PREFIX_CN = HTTP_PREFIX;
+	//public static final String API_PREFIX = HTTP_PREFIX + "/";
+	public static final String PREFS = "Cloud";
+	public static final long LOCATE_IN_MILLS = 5*60*1000; // seek the location when uploading if photo is shoot in this number of millseconds
+	public static final String USERNAME_PREFIX = "@";
+	public static final String USERNAME_SPLITOR = ",";
+	public static final String TMP_FOLDER = "/sdcard/grapps";
+	public static final String TMP_CAPTURE_FILE = "CloudCapture.jpg";
+	//public static final String TMP_UPLOAD_FILE = "CloudUpload.jpg";
+	public static final String METADATA_DATE_TIME_FORMAT = "yyyy:MM:dd HH:mm:ss";
+	public static final String UPLOAD_DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
+	public static final String FILENAME_FORMAT = "yyyyMMddHHmmss";
+	public static final int TASK_SCAN_INTERVAL = 1*1000;  
+	public static final int HTTP_TIMEOUT = 30000;
+	public static final int HTTP_TIMEOUT_SHORT = 10000;
+	public static final int HTTP_TIMEOUT_LONG = 120000;
+	public static final int IMAGE_CACHE_SIZE = 500;
+	public static final int MULITI_DOWNLOADING = 3;
+	public static final String BROADCAST_UPLOAD_PROGRESS = "com.grapss.android.UPLOAD_PROGRESS";
+	public static final String KEY_PERCENT = "percent";
+	public static final String KEY_PACKAGE = "package";
+	public static final String KEY_APP = "app";
+	public static final String BROADCAST_CACHE_APPS_PROGRESS = "com.grapss.android.CACHE_APPS_PROGRESS";
+	public static final String KEY_COUNT = "count";
+	public static final String KEY_REFRESH = "refresh";
+	public static final String KEY_FINISHED = "finished";
+	public static final String KEY_FAILED = "failed";
+	protected static final String KEY_SIZE_SENT = "size_sent";
+}

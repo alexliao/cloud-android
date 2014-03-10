@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#808080</color>
+    <color name="none">#00000000</color>
+	
+    <color name="on">#84e700</color> 
+    <color name="error">#ff0000</color> 
+    <color name="field">#000000</color>
+
+    <color name="main_background_dark">#000000</color>
+    <color name="content_dark">#e1dee1</color>
+    <color name="panel_dark">#0692ec</color>
+    <color name="divider_dark">#0692ec</color>
+	
+    <color name="title">#0692ec</color>
+</resources>

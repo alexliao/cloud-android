@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云</string>
+	<string name="slogon">给朋友发软件</string>
+	<string name="start">查看我的软件</string>
+	<string name="share">分享</string>
+    <string name="share_menu_label">发送到云</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string> 
+    <string name="loading">加载中...</string>
+    <string name="upload">上传</string> 
+    <string name="uploading">正在上传...</string>
+    <string name="uploaded">上传成功，点击进行分享</string>
+    <string name="tell_friends">告诉朋友</string>
+    <string name="done">完成</string>
+    <string name="err_no_SD">不能访问SD卡. 请确保你的SD卡已准备好.</string>
+    <string name="err_no_network_title">网络连接不可用</string>
+    <string name="err_no_network_message">请确保你的WiFi无线网络或者移动网络已启用.</string>
+    <string name="err_upload_failed">上传失败，请确定网络连接正常然后重试。</string>
+    <string name="err_failed">操作失败</string> 
+    <string name="share_via_email_title">从云中下载软件</string>
+    <string name="tell_friends_via">发给朋友</string>
+    <string name="send">发送</string>
+    <string name="refresh">刷新</string>
+    <string name="retry">重试</string>
+    <string name="confirm_prompt">你确定吗？</string>
+    <string name="ok">确定</string>
+    <string name="settings">设置</string>
+
+    <string name="upgrade">立刻升级！</string>  
+    <string name="about">关于</string>  
+    <string name="about_cloud">关于云</string>  
+    <string name="version_name">版本 %s</string>  
+    <string name="up2date">你的云是最新版本</string>  
+    <string name="not_up2date">最新版%s可以下载了！以下是最近的变化: </string>  
+    <string name="cloud_update">云更新</string>  
+    
+    <string name="app_count">你有%d个软件</string>
+    <string name="app_version">版本 %s</string>
+    <string name="app_size">大小 %.2fMB</string>
+    <string name="first_step">上传</string>
+    <string name="second_step">分享</string>
+    <string name="not_in_cloud">这个软件还不在云中，现在就上传！</string>
+    <string name="in_cloud">%s已经在云中</string>
+    <string name="uploading_prompt">你可以直接返回，让它在后台上传，完毕后你会得到通知。</string>
+    <string name="uploading_queued">正在排队等待上传...</string>
+    <string name="move_to_background">移至后台上传</string>
+    <string name="uploading_queued_prompt">正在上传, 完成后你会得到通知。</string>
+    <string name="size_sent" formatted="false">%d%%，%dKB已发送</string>
+</resources>

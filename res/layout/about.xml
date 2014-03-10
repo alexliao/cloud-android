@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	>
+	<ScrollView android:id="@+id/panel" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:fadingEdge="none"
+		android:scrollbars="none"
+		android:layout_weight="1"
+		>
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:paddingBottom="10dip"
+			>
+			<TextView android:id="@+id/txtVersionName" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/logo_small_dark"
+				android:drawablePadding="10dip"
+				android:gravity="bottom"
+				android:textSize="14sp"
+				android:padding="10dip"
+			/>
+			<TextView android:id="@+id/txtUp2Date"
+				android:text="@string/up2date" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/btn_check_buttonless_on"
+				android:drawablePadding="10dip"
+				android:gravity="center_vertical"
+				android:textSize="18sp"
+				android:padding="10dip"
+			/>
+			<TextView android:id="@+id/txtNotUp2Date"
+				android:text="@string/not_up2date" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:padding="10dip"
+			/>
+			<com.goofy2.cloud.utils.HeightListView android:id="@+id/listChanges"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:clipChildren="false"
+				android:dividerHeight="1px"
+				android:cacheColorHint="#00000000"
+				android:scrollbars="none"
+				android:headerDividersEnabled="false"
+				android:footerDividersEnabled="false"
+			/>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:padding="5dip"
+		>
+		<Button android:id="@+id/btnUpgrade" 
+			android:text="@string/upgrade"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+		/>
+		<Button android:id="@+id/btnDone" 
+			android:text="@string/done"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+		/>
+	</LinearLayout>
+</LinearLayout>

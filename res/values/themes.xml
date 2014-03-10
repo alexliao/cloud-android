@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CloudThemeDark" parent="android:Theme.NoTitleBar">
+		<item name="android:windowBackground">@color/main_background_dark</item>
+
+		<item name="backgroundMain">@color/main_background_dark</item>
+		<item name="logoBig">@drawable/logo_big_dark</item>
+		<item name="logoSmall">@drawable/logo_small_dark</item>
+		<item name="colorContent">@color/content_dark</item>
+		<item name="colorAction">@color/action_dark</item>
+		<item name="colorPanel">@color/panel_dark</item>
+		<item name="colorDivider">@color/divider_dark</item>
+	</style>
+</resources>
